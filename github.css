@@ -1,0 +1,47 @@
+input, button {
+  font-size: 20px;
+  padding: 5px;
+}
+
+input {
+  width: 510px;
+}
+
+.profile {
+  background: #606c88; /* Old browsers */
+  background: -moz-linear-gradient(top,  #606c88 0%, #3f4c6b 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#606c88), color-stop(100%,#3f4c6b)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #606c88 0%,#3f4c6b 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #606c88 0%,#3f4c6b 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #606c88 0%,#3f4c6b 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #606c88 0%,#3f4c6b 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#606c88', endColorstr='#3f4c6b',GradientType=0 ); /* IE6-9 */
+  width: 600px;
+  padding: 20px 20px 10px 20px;
+  font-family: Helvetica Neue;
+  border-radius: 15px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.profile a {
+  color: #fff;
+}
+
+.profile .left {
+  width: 110px;
+  float: left;
+}
+
+.profile .right {
+  width: 450px;
+  float: left;
+  padding: 0 20px;
+}
+
+.profile .right h3 {
+  margin-top: 0;
+}
+.profile img {
+  width: 100%;
+}
