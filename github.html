@@ -1,33 +1,39 @@
-<html>
+<!doctype html>
+<html lang='en'>
   <head>
     <title>Github profiles</title>
     <link href='github.css' rel='stylesheet'>
+    <meta charset='utf8'>
   </head>
   <body>
-    <form id='add_profile'>
+    <form id='add-profile'>
       <input id='username' placeholder='Enter a Github username'>
       <button type='submit'>Load profile</button>
     </form>
 
-    <div class='profile-container'>
-      <div class="profile">
-        <div class="left">
+    <main class="profile-container">
+      <article class="profile">
+        <section class="pic">
           <img src="https://avatars.githubusercontent.com/u/5008648?">
-        </div>
+        </section>
 
-        <div class="right">
+        <section class="statistics">
           <h3>
             <a href="https://github.com/alexmakers">
               alexmakers
             </a>
           </h3>
-          <h4>Repos: 35</h4>
-          <h4>Followers: 49</h4>
-        </div>
+          <strong>Repos: 35</strong>
+          <strong>Followers: 49</strong>
+        </section>
         <br clear="all">
-      </div>
-    </div>
+      </article>
+    </main>
 
-    <script src='https://code.jquery.com/jquery-2.0.3.min.js'></script>
+    <script src='https://code.jquery.com/jquery-2.1.1.min.js'></script>
+    <script>
+      $(document).ready(function(){
+      })
+    </script>
   </body>
 </html>

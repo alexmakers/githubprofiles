@@ -28,19 +28,25 @@ input {
   color: #fff;
 }
 
-.profile .left {
+.profile .pic {
   width: 110px;
   float: left;
 }
 
-.profile .right {
+.profile .statistics {
   width: 450px;
   float: left;
   padding: 0 20px;
 }
 
-.profile .right h3 {
+.profile .statistics h3 {
   margin-top: 0;
+}
+
+.profile .statistics strong {
+  margin-top: 10px;
+  font-size: 18px;
+  display: block;
 }
 .profile img {
   width: 100%;
